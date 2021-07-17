@@ -11,7 +11,7 @@ pipeline
             steps
             {
                 
-                bat 'mvn -f integ-Maven-tutorial2/pom.xml clean package'
+                bat 'mvn -f pom.xml clean package'
                 
             }
             post
@@ -36,7 +36,7 @@ pipeline
             steps
              {   
           
-                bat "docker build ./integ-Maven-tutorial2 -t tomcatsamplewebapp:${env.BUILD_ID}"   
+                bat "docker build . -t tomcatsamplewebapp:${env.BUILD_ID}"   
           
               }               
                                
