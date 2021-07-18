@@ -35,6 +35,8 @@ pipeline
          {
             steps
              {   
+			 
+			    
           
                 bat "docker build . -t tomcatsamplewebapp:${env.BUILD_ID}"   
           
