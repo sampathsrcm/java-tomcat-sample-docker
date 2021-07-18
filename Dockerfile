@@ -1,6 +1,6 @@
 FROM tomcat:9.0.50
 
-ADD  integ-Maven-tutorial.war  /usr/local/tomcat/webapps/
+ADD  ./integ-Maven-tutorial.war  /usr/local/tomcat/webapps/
 
 EXPOSE 8080
 
