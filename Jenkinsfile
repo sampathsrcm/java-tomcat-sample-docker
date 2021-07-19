@@ -21,7 +21,7 @@ pipeline
                     
                     echo "Archiving the artifacts ......."
                     
-                    archiveArtifacts artifacts: '**/*.war'
+                    archiveArtifacts artifacts: 'C:/Users/sampy/integ-Maven-tutorial2**/*.war'
                 }
 
                 
